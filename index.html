@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Ainoo Bright Takyi, web developer, entrepreneur, and digital educator."
+    />
+    <title>Ainoo Bright Takyi | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Ainoo Bright Takyi home">Ainoo <span>Bright Takyi</span></a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="nav-links" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#businesses">Ventures</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-layout">
+          <div class="hero-content">
+            <p class="eyebrow">Welcome to my digital space</p>
+            <h1>Hi, I'm <span>Ainoo Bright Takyi</span></h1>
+            <p class="hero-role">Web Developer, E-Commerce Brand Owner &amp; Digital Educator</p>
+            <p class="hero-copy">
+              I build focused, user-friendly digital experiences and turn ambitious ideas into purposeful online brands. My work connects clean web development with practical business growth.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Projects <span aria-hidden="true">→</span></a>
+              <a class="button button-secondary" href="#businesses">Explore Ventures</a>
+            </div> 
+          </div>
+          <div class="profile-frame">
+            <!-- Replace this URL with your photo, for example: images/ainoo-bright-takyi.jpg -->
+            <img class="profile-photo" src="\images\prof pic.png" alt="Placeholder for Ainoo Bright Takyi's portrait" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="container about-layout">
+          <div>
+            <p class="eyebrow">About me</p>
+            <h2>Building digital experiences with intention.</h2>
+          </div>
+          <p class="section-copy">I combine front-end craft with an entrepreneurial mindset to create websites and digital products that are clear, useful, and built to move ideas forward.</p>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Featured Projects</h2>
+            <p>Examples of thoughtful interfaces built around usability, responsive design, and polished interaction.</p>
+          </div>
+          <div class="project-grid">
+            <article class="card project-card">
+              <div class="card-icon" aria-hidden="true">⌘</div>
+              <h3>Interactive Web App</h3>
+              <p>A responsive, engaging web application designed to make everyday tasks simple and enjoyable.</p>
+              <div class="tags"><span>HTML5</span><span>CSS Grid</span><span>JavaScript</span></div>
+              <div class="card-links"><a href="#contact">Live Demo <span>↗</span></a><a href="#contact">GitHub Repo <span>↗</span></a></div>
+            </article>
+            <article class="card project-card">
+              <div class="card-icon" aria-hidden="true">▣</div>
+              <h3>E-Commerce Frontend UI</h3>
+              <p>A conversion-conscious storefront interface that puts products, clarity, and mobile shoppers first.</p>
+              <div class="tags"><span>HTML5</span><span>Flexbox</span><span>Responsive UI</span></div>
+              <div class="card-links"><a href="#contact">Live Demo <span>↗</span></a><a href="#contact">GitHub Repo <span>↗</span></a></div>
+            </article>
+            <article class="card project-card">
+              <div class="card-icon" aria-hidden="true">◈</div>
+              <h3>Digital Learning Hub</h3>
+              <p>A clean course discovery concept that helps learners find practical resources and take action.</p>
+              <div class="tags"><span>JavaScript</span><span>UI Design</span><span>Accessibility</span></div>
+              <div class="card-links"><a href="#contact">Live Demo <span>↗</span></a><a href="#contact">GitHub Repo <span>↗</span></a></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section ventures-section" id="businesses">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">In progress</p>
+            <h2>My Businesses &amp; Ventures</h2>
+            <p>Ideas in development, designed to create value beyond the screen.</p>
+          </div>
+          <div class="venture-grid">
+            <article class="card venture-card">
+              <span class="badge">Coming Soon</span>
+              <p class="venture-number">01</p>
+              <h3>E-Commerce Bag Brand</h3>
+              <p>An online storefront showcasing high-quality, stylish bags built for utility and everyday lifestyle.</p>
+              <button class="button button-disabled" disabled>Store Launching Soon</button>
+            </article>
+            <article class="card venture-card">
+              <span class="badge">Coming Soon</span>
+              <p class="venture-number">02</p>
+              <h3>Digital Marketing &amp; Courses</h3>
+              <p>Online educational programs teaching actionable marketing strategies to scale modern businesses online.</p>
+              <button class="button button-disabled" disabled>Courses Launching Soon</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-heading"><p class="eyebrow">Expertise</p><h2>What I Do</h2></div>
+          <div class="skills-grid">
+            <article class="card skill-card"><h3>Web Development</h3><p>I create fast, responsive websites that look great and work beautifully on every device.</p><ul><li>HTML5 &amp; semantic markup</li><li>CSS3, Grid &amp; Flexbox</li><li>JavaScript (ES6+)</li><li>Responsive design</li></ul></article>
+            <article class="card skill-card"><h3>Entrepreneurship &amp; Marketing</h3><p>I apply practical digital strategy to help ideas become clearer, stronger online businesses.</p><ul><li>E-commerce store management</li><li>Digital marketing strategy</li><li>Course creation</li><li>Audience-focused communication</li></ul></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container contact-layout">
+          <div class="contact-intro"><p class="eyebrow">Let's connect</p><h2>Get In Touch</h2><p>Have a project, opportunity, or idea to discuss? Send a message and I'll get back to you.</p><div class="social-links"><a href="#" aria-label="GitHub profile">GitHub</a><a href="#" aria-label="LinkedIn profile">LinkedIn</a><a href="#" aria-label="X profile">Twitter / X</a></div></div>
+          <form class="contact-form" action="https://formspree.io/f/mdaqllzr" method="POST">
+            <label for="name">Name<input id="name" name="name" type="text" placeholder="Your name" required /></label>
+            <label for="email">Email<input id="email" name="email" type="email" placeholder="you@example.com" required /></label>
+            <label for="message">Message<textarea id="message" name="message" rows="5" placeholder="Tell me about your idea..." required></textarea></label>
+            <button class="button button-primary" type="submit">Send Message <span aria-hidden="true">→</span></button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><div class="container">© 2026 Ainoo Bright Takyi. Built with HTML, CSS &amp; JavaScript.</div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
